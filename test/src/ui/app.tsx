@@ -21,7 +21,7 @@ const useLocation = () => {
 const App = () => {
     const [selectedPath, setSelectedPath] = useState("home");
     const { hash } = useLocation();
-    const [anchor] = useState<MenuBarAnchorType>("left");
+    const [anchor, setAnchor] = useState<MenuBarAnchorType>("left");
     useEffect(() => {
         setSelectedPath(hash);
     }, [hash]);
@@ -29,12 +29,12 @@ const App = () => {
         <GlobalStyles />
         <MenuView items={MenuItems} anchor={anchor} selectedMenuId={selectedPath}>
             <h1 style={{ margin: "auto auto" }}>MainContent</h1>
-            {/* <div>
+            <div>
                 <button onClick={() => setAnchor("left")}>Left MenuBar</button>
                 <button onClick={() => setAnchor("right")}>Right MenuBar</button>
-                <button onClick={() => setAnchor("top")}>Top MenuBar</button>
-                <button onClick={() => setAnchor("bottom")}>Bottom MenuBar</button>
-            </div> */}
+                {/* <button onClick={() => setAnchor("top")}>Top MenuBar</button>
+                <button onClick={() => setAnchor("bottom")}>Bottom MenuBar</button> */}
+            </div>
             <div style={{ overflow: "auto" }}>
                 <div style={{
                     height: 3000,
