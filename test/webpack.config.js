@@ -17,6 +17,7 @@ const common = {
         extensions: [".js", ".ts", ".tsx"],
         alias: {
             'react': path.resolve(__dirname, './node_modules/react'),
+            'styled-components': path.resolve(__dirname, './node_modules/styled-components'),
         },
     },
     node: {
