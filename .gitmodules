@@ -7,3 +7,6 @@
 [submodule "with-menu"]
 	path = with-menu
 	url = https://github.com/agentg2007/with-menu.git
+[submodule "agentg2007.github.io"]
+	path = agentg2007.github.io
+	url = https://github.com/agentg2007/agentg2007.github.io.git
