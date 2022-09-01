@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import MenuView, { MenuBarAnchorType, MenuItemType, MenuProvider } from "@nthity/with-menubar";
+import MenuView, { MenuBarAnchorType, MenuItemType, MenuProvider } from "@nthity/react-menu";
 import { GlobalStyles } from "./theme";
 
 //temporary useLocation

@@ -16,3 +16,6 @@
 [submodule "guid"]
 	path = guid
 	url = https://github.com/agentg2007/guid.git
+[submodule "version-utils"]
+	path = version-utils
+	url = https://github.com/agentg2007/version-utils.git
