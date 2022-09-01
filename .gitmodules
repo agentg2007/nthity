@@ -10,3 +10,9 @@
 [submodule "agentg2007.github.io"]
 	path = agentg2007.github.io
 	url = https://github.com/agentg2007/agentg2007.github.io.git
+[submodule "utils"]
+	path = utils
+	url = https://github.com/agentg2007/utils.git
+[submodule "guid"]
+	path = guid
+	url = https://github.com/agentg2007/guid.git
